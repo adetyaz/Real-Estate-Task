@@ -6,6 +6,9 @@
     background-color: $dark-green;
     height: 36rem;
     margin-bottom: 3rem;
+    @include respond(phone) {
+        background-size: 100%;
+    }
 }
 
 .cta-section {
@@ -19,5 +22,8 @@
 }
 
 .testimonial-section {
-    padding: 2rem 6rem;
+    padding: 6rem 6rem;
+    @include respond(phone) {
+        padding: 0 6rem;
+    }
 }

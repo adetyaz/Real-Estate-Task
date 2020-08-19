@@ -5,3 +5,30 @@
 .u-margin-bottom-null {
     margin-bottom: 0;
 }
+
+.u-margin-bottom {
+    margin-bottom: -12rem;
+    @include respond(phone) {
+        margin-bottom: 0;
+    }
+}
+
+.u-margin-left-medium {
+    margin-left: -2.5rem;
+    font-weight: 600;
+}
+
+.u-margin-left {
+    margin-left: -1.5rem;
+    font-weight: 600;
+}
+
+.ad-extra-text {
+    padding: 0 2rem;
+    margin-left: -2rem;
+    margin-bottom: 1.5rem;
+}
+
+.ad-text {
+    font-size: 1rem;
+}

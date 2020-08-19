@@ -1,0 +1,46 @@
+.nav {
+    display: flex;
+    position: relative;
+    top: 5.5rem;
+    margin-top: -2rem;
+    left: 10rem;
+    @include respond(phone) {
+        display: none;
+    }
+    &__list {
+        display: inline-block;
+        list-style: none;
+    }
+    &__link {
+        text-decoration: none;
+        font-size: 1.1rem;
+        color: $green;
+        margin-left: 2rem;
+        border-bottom: 0 solid transparent;
+        transition: all 5ms ease-in-out;
+        &:hover {
+            border-bottom: 2px solid $green;
+        }
+    }
+    &__button {
+        color: $dark-grey;
+        background-color: $white;
+        border: 1px solid $dark-grey;
+        font-size: 1rem;
+        display: block;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 5ms ease-in;
+        height: 2.5rem;
+        width: 13rem;
+        padding: 0.4rem 3rem;
+        text-align: center;
+        &:hover {
+            box-shadow: 0 1rem 0.5rem rgba($dark-grey, 0.3);
+            transform: scale(1.05);
+        }
+    }
+}
+
+// .toggle{
+// }

@@ -3,11 +3,24 @@
         font-size: 3rem;
         font-weight: 400;
         color: $white;
+        @include respond(phone) {
+            color: $green;
+        }
+    }
+    &__hero {
+        font-size: 2rem;
+        color: $white;
+        @include respond(phone) {
+            color: $green;
+        }
     }
     &__secondary {
         font-size: 1.5rem;
         color: $dark-green;
         margin: 0 5rem;
+        @include respond(phone) {
+            font-size: 1.7rem;
+        }
         &--invert {
             color: $white;
         }
@@ -16,6 +29,9 @@
         text-align: center;
         color: $dark-green;
         font-size: 1.6rem;
+        @include respond(phone) {
+            font-size: 1.7rem;
+        }
     }
 }
 
@@ -24,12 +40,18 @@
         font-size: 1.5rem;
         font-weight: 400;
         color: $white;
+        @include respond(phone) {
+            color: $green;
+        }
     }
     &__title {
         color: $light-grey;
         font-size: 1.3rem;
         margin-bottom: 0.3rem;
         font-weight: 500;
+        @include respond(phone) {
+            font-size: 1.5rem;
+        }
     }
     &__price {
         color: $green;
@@ -42,6 +64,9 @@
         font-size: 0.8rem;
         font-weight: 200;
         margin-bottom: 0.8rem;
+        @include respond(phone) {
+            font-size: 1rem;
+        }
         &--invert {
             color: $white;
         }
@@ -50,10 +75,16 @@
         font-size: 0.9rem;
         color: $light-grey;
         text-align: center;
+        @include respond(phone) {
+            font-size: 1rem;
+        }
     }
     &__comment {
         font-size: 1rem;
-        color: $light-grey;
+        color: $white;
         text-align: center;
+        @include respond(phone) {
+            font-size: 1rem;
+        }
     }
 }

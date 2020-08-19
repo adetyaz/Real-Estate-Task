@@ -7,6 +7,9 @@
         border-radius: 0.3rem;
         margin-top: 2rem;
         padding: 0 1rem;
+        @include respond(phone) {
+            height: 20rem;
+        }
     }
     &__image {
         margin: 1.3rem 1rem;
@@ -39,6 +42,9 @@
     }
     &__contact-image {
         padding: 0 1rem;
+        @include respond(tab-land-card) {
+            height: 3rem;
+        }
     }
     &__contact-text {
         flex: 0 0 auto;

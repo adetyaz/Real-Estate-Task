@@ -1,0 +1,79 @@
+.footer {
+    padding: 2rem 3rem;
+    margin-top: 7rem;
+    background-color: $white;
+    &__description {
+        @include respond(phone) {
+            margin-top: 2rem;
+        }
+    }
+    &__items {
+        display: flex;
+        justify-content: space-around;
+        @include respond(phone) {
+            flex-flow: column wrap;
+            align-content: baseline;
+        }
+    }
+    &__list {
+        list-style: none;
+    }
+    &__link {
+        text-align: center;
+        font-size: 1rem;
+        font-family: inherit;
+        font-weight: 200;
+        color: $dark-green;
+        text-decoration: none;
+        margin-bottom: 1rem;
+    }
+    &__socials {
+        font-size: 1rem;
+        font-weight: bold;
+        color: $dark-green;
+    }
+    &__socialsitem {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        margin-right: -2rem;
+        @include respond(phone) {
+            flex-flow: column wrap;
+            align-content: baseline;
+            height: 11rem;
+            margin: 0 -1rem;
+        }
+    }
+    &__socialslist {
+        flex: 0 0 50%;
+        list-style: none;
+        margin-right: -1rem;
+        @include respond(phone) {
+            margin: 0 1rem;
+            flex: 0;
+        }
+    }
+    &__socialsimg {
+        height: 3.7rem;
+        width: 3.7rem;
+        @include respond(phone) {
+            height: 2rem;
+            width: 2rem;
+        }
+    }
+    &__descitems {
+        @include respond(phone) {
+            margin-bottom: 2rem;
+        }
+    }
+    &__copyright {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 600;
+        color: $dark-green;
+        padding-top: 4rem;
+        @include respond(phone) {
+            text-align: left;
+        }
+    }
+}

@@ -3,6 +3,9 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 2rem 0;
+    @include respond(phone) {
+        flex-direction: column;
+    }
     &__card {
         height: 10rem;
         width: 22rem;
@@ -26,5 +29,10 @@
     &__contact-text {
         flex: 0 0 auto;
         margin-right: 10rem;
+    }
+    &__contact-image {
+        @include respond(tab-land-card) {
+            height: 3rem;
+        }
     }
 }
