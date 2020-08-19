@@ -1,0 +1,18 @@
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -1.6rem;
+}
+
+.logo-box {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    z-index: 1;
+}
+
+.logo {
+    height: 7rem;
+}

@@ -1,0 +1,23 @@
+.section-hero {
+    background: url("../../assets/images/Header.png");
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: $dark-green;
+    height: 36rem;
+    margin-bottom: 3rem;
+}
+
+.cta-section {
+    padding: 5rem 5rem;
+    background: url("../../assets/images/villa image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 36.5rem;
+    margin-bottom: 2rem;
+}
+
+.testimonial-section {
+    padding: 2rem 6rem;
+}

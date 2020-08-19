@@ -1,0 +1,59 @@
+.heading {
+    &__primary {
+        font-size: 3rem;
+        font-weight: 400;
+        color: $white;
+    }
+    &__secondary {
+        font-size: 1.5rem;
+        color: $dark-green;
+        margin: 0 5rem;
+        &--invert {
+            color: $white;
+        }
+    }
+    &__testimonial {
+        text-align: center;
+        color: $dark-green;
+        font-size: 1.6rem;
+    }
+}
+
+.paragraph {
+    &__hero {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: $white;
+    }
+    &__title {
+        color: $light-grey;
+        font-size: 1.3rem;
+        margin-bottom: 0.3rem;
+        font-weight: 500;
+    }
+    &__price {
+        color: $green;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 0.7rem;
+    }
+    &__address {
+        color: $light-grey;
+        font-size: 0.8rem;
+        font-weight: 200;
+        margin-bottom: 0.8rem;
+        &--invert {
+            color: $white;
+        }
+    }
+    &__testimonial {
+        font-size: 0.9rem;
+        color: $light-grey;
+        text-align: center;
+    }
+    &__comment {
+        font-size: 1rem;
+        color: $light-grey;
+        text-align: center;
+    }
+}

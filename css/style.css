@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  font-size: 16px;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Noto sans", sans-serif;
+  line-height: 1.6;
+  min-height: 100vh; }
+
+main {
+  overflow: hidden; }
+
+.heading__primary {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #ffffff; }
+
+.heading__secondary {
+  font-size: 1.5rem;
+  color: #011b25;
+  margin: 0 5rem; }
+  .heading__secondary--invert {
+    color: #ffffff; }
+
+.heading__testimonial {
+  text-align: center;
+  color: #011b25;
+  font-size: 1.6rem; }
+
+.paragraph__hero {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #ffffff; }
+
+.paragraph__title {
+  color: #616161;
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+  font-weight: 500; }
+
+.paragraph__price {
+  color: #20cd84;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.7rem; }
+
+.paragraph__address {
+  color: #616161;
+  font-size: 0.8rem;
+  font-weight: 200;
+  margin-bottom: 0.8rem; }
+  .paragraph__address--invert {
+    color: #ffffff; }
+
+.paragraph__testimonial {
+  font-size: 0.9rem;
+  color: #616161;
+  text-align: center; }
+
+.paragraph__comment {
+  font-size: 1rem;
+  color: #616161;
+  text-align: center; }
+
+.u-margin-left-null {
+  margin-left: 0; }
+
+.u-margin-bottom-null {
+  margin-bottom: 0; }
+
+.btn-green {
+  cursor: pointer;
+  height: 3rem;
+  width: 18%;
+  display: block;
+  background-color: #011b25;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  border-radius: 3rem;
+  margin-bottom: 2rem;
+  position: relative;
+  left: 41%;
+  transition: all 5ms ease-in-out; }
+  .btn-green:hover {
+    box-shadow: 0 0.3rem 0.5rem rgba(32, 205, 132, 0.3);
+    transform: scale(1.05); }
+
+.btn-small {
+  cursor: pointer;
+  height: 3rem;
+  width: 33%;
+  display: block;
+  background-color: #20cd84;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  border-radius: 3rem;
+  margin-left: 5rem; }
+  .btn-small:hover {
+    box-shadow: 0 0.3rem 0.5rem rgba(255, 255, 255, 0.3);
+    transform: scale(1.05); }
+  .btn-small--contact {
+    margin-left: 0; }
+
+.cta__card {
+  height: 16rem;
+  width: 26rem;
+  background-color: #ffffff;
+  box-shadow: 0 0.2rem 0.3rem rgba(69, 69, 69, 0.3);
+  border-radius: 0.3rem;
+  margin-top: 2rem;
+  padding: 0 1rem; }
+
+.cta__image {
+  margin: 1.3rem 1rem; }
+
+.cta__text-content {
+  padding: 0 1rem; }
+
+.cta__details {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  margin-left: -1rem; }
+
+.cta__icon {
+  height: 1rem;
+  padding: 0 0.5rem;
+  margin-left: -0.25rem; }
+
+.cta__contact {
+  height: 6rem;
+  width: 26rem;
+  background-color: #ffffff;
+  box-shadow: 0 0.2rem 0.3rem rgba(69, 69, 69, 0.3);
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+
+.cta__contact-image {
+  padding: 0 1rem; }
+
+.cta__contact-text {
+  flex: 0 0 auto;
+  margin-right: 5rem; }
+
+.featured {
+  padding: 2rem 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+  .featured__card {
+    height: 25rem;
+    width: 20rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.2rem 0.3rem rgba(69, 69, 69, 0.3);
+    border-radius: 0.3rem;
+    margin-top: 2rem; }
+    .featured__card-image {
+      height: 13.35rem; }
+  .featured__text-content {
+    padding: 0 1rem; }
+  .featured__details {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    margin-left: -1rem; }
+  .featured__icon {
+    height: 1rem;
+    padding: 0 0.8rem; }
+
+span {
+  display: inline-block;
+  font-size: 0.8rem; }
+
+.featured-ad {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; }
+  .featured-ad__card {
+    height: 18rem;
+    width: 27rem;
+    background-color: #011b25;
+    box-shadow: 0 0.2rem 0.3rem rgba(69, 69, 69, 0.3);
+    border-radius: 0.3rem;
+    margin: 5rem 0; }
+    .featured-ad__card--invert {
+      background-color: #f6f7f9; }
+
+.hero {
+  padding: 15rem 6rem; }
+  .hero__form {
+    padding: 3rem 0; }
+  .hero__input {
+    display: inline-block;
+    font-family: inherit;
+    height: 3rem;
+    outline: none;
+    border: 1px solid transparent;
+    color: #454545;
+    padding: 0 3rem;
+    transition: all 5ms ease-in;
+    margin: 0 -1rem; }
+    .hero__input:focus {
+      outline: #20cd84; }
+
+.testimonial {
+  padding: 2rem 0; }
+  .testimonial__card {
+    height: 10rem;
+    width: 22rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.2rem 0.3rem rgba(69, 69, 69, 0.3);
+    border-radius: 0.3rem;
+    margin-top: 5rem; }
+    .testimonial__card-comment {
+      height: 5rem;
+      background-color: #20cd84;
+      box-shadow: 0 0.5rem 1rem rgba(32, 205, 132, 0.5);
+      margin-bottom: 1rem;
+      padding: 1rem; }
+  .testimonial__card-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; }
+  .testimonial__contact-image {
+    padding: 0 1rem; }
+  .testimonial__contact-text {
+    flex: 0 0 auto;
+    margin-right: 5rem; }
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: -1.6rem; }
+
+.logo-box {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  z-index: 1; }
+
+.logo {
+  height: 7rem; }
+
+.section-hero {
+  background: url("../../assets/images/Header.png");
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #011b25;
+  height: 36rem;
+  margin-bottom: 3rem; }
+
+.cta-section {
+  padding: 5rem 5rem;
+  background: url("../../assets/images/villa image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 36.5rem;
+  margin-bottom: 2rem; }
+
+.testimonial-section {
+  padding: 2rem 6rem; }

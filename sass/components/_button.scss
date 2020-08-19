@@ -1,0 +1,41 @@
+.btn-green {
+    cursor: pointer;
+    height: 3rem;
+    width: 18%;
+    display: block;
+    background-color: $dark-green;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.75rem 1rem;
+    border-radius: 3rem;
+    margin-bottom: 2rem;
+    position: relative;
+    left: 41%;
+    transition: all 5ms ease-in-out;
+    &:hover {
+        box-shadow: 0 0.3rem 0.5rem rgba($green, 0.3);
+        transform: scale(1.05);
+    }
+}
+
+.btn-small {
+    cursor: pointer;
+    height: 3rem;
+    width: 33%;
+    display: block;
+    background-color: $green;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.75rem 1rem;
+    border-radius: 3rem;
+    margin-left: 5rem;
+    &:hover {
+        box-shadow: 0 0.3rem 0.5rem rgba($white, 0.3);
+        transform: scale(1.05);
+    }
+    &--contact {
+        margin-left: 0;
+    }
+}
